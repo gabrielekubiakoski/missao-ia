@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+:root{
+    --font-titulo:'Playfair Display' ;
+    --font-texto: 'Overpass';
+    --cor-principal: #ffffff;
+    --cor-secundaria: #ffffff ;
+    --cor-destaque: #ffffff;
+    --cor-texto: #ffffff ;
+}
+body{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h1, .caixa-perguntas, .caixa-resultados{
+    font-family: var(--font-titulo);
+}
+h1{
+    color: var(--cor-destaque);
+}
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+.caixa-resultados{
+    display: none;
+}
+.caixa-resultados{
+    display: block;
+}
+.caixa-alternativas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
