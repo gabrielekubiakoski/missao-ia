@@ -4,9 +4,9 @@
 :root{
     --font-titulo:'Playfair Display' ;
     --font-texto: 'Overpass';
-    --cor-principal: #ffffff;
-    --cor-secundaria: #ffffff ;
-    --cor-destaque: #ffffff;
+    --cor-principal: #f27676;
+    --cor-secundaria: #ba3f3f ;
+    --cor-destaque: #a84b4b;
     --cor-texto: #151212 ;
 }
 body{
