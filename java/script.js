@@ -12,3 +12,8 @@ let perguntaAtual;
 let historiaFinal = "";
 
 botaoIniciar.addEventlistener('click,iniciaJogo');
+
+
+historiaFinal = "";
+telaInicial.computedStyleMap.display = 'none';
+caixaPerguntas

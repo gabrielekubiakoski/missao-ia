@@ -4,10 +4,10 @@
 :root{
     --font-titulo:'Playfair Display' ;
     --font-texto: 'Overpass';
-    --cor-principal: #46a097;
-    --cor-secundaria: #0a6a80 ;
-    --cor-destaque: #1d2332;
-    --cor-texto: #151212 ;
+    --cor-principal: #3c403f;
+    --cor-secundaria: #454748 ;
+    --cor-destaque: #f9fbff;
+    --cor-texto: #faf7f7 ;
 }
 body{
     background-color: var(--cor-principal);
