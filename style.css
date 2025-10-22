@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+
 :root{
     --font-titulo:'Playfair Display' ;
     --font-texto: 'Overpass';
@@ -11,20 +12,19 @@
 body{
     background-color: var(--cor-principal);
     color: var(--cor-texto);
-
+    font-family: var(--font-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
 h1, .caixa-perguntas, .caixa-resultados{
     font-family: var(--font-titulo);
 }
