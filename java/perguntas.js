@@ -45,14 +45,14 @@ export const perguntas = [
             afirmacao: [
           "Esse tipo de comparação afeta diretamente a autoestima e pode provocar frustrações contínuas.",
             ],
-            proxima:3,
+            proxima:5,
         },
         {
             texto:"Usuários com senso crítico conseguem diferenciar conteúdos exagerados da realidade, evitando que esse tipo de exposição prejudique sua saúde mental.",
             afirmacao: [
             "A maturidade emocional permite compreender que influenciadores mostram apenas recortes positivos da vida.",
             ],
-            proxima: 4,
+            proxima: 6,
         }
     ]
 },
@@ -64,14 +64,14 @@ export const perguntas = [
             afirmacao:[
           "Essa interação contribui para reduzir o estigma e facilitar o acesso à informação."
             ],
-            proxima:3,
+            proxima:7,
         },
         {
             texto:"Apesar das iniciativas positivas, ainda há grande disseminação de informações incorretas, o que pode confundir e até prejudicar quem busca ajuda.",
             afirmacao: [
              "Sem filtros de qualidade, o ambiente virtual pode gerar interpretações equivocadas.",
             ],
-            proxima: 4,
+            proxima: 8,
         }
     ]
 },
@@ -83,14 +83,14 @@ export const perguntas = [
             afirmacao:[
            "Menos estímulos digitais favorecem uma rotina mais tranquila e saudável.",
             ],
-            proxima:3,
+            proxima:9,
         },
         {
             texto:"Apenas reduzir o tempo de uso não resolve questões emocionais mais profundas, que exigem intervenções profissionais e mudanças comportamentais mais amplas.",
             afirmacao: [
             "A saúde mental depende de diversos fatores além do tempo gasto nas redes.",
             ],
-            proxima: 4,
+            proxima: 10,
         }
     ]
 },
