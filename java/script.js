@@ -14,7 +14,7 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-botaoIniciar.addEventListener('click',iniciaJogo);
+botaoIniciar.addEventListener('click', iniciaJogo);
 function iniciaJogo () {
     atual = 0;
     historiaFinal = "";
@@ -32,26 +32,21 @@ function mostraPergunta() {
     }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.innerHTML = ""; // Limpar alternativas antes de adicionar novas
     mostraAlternativas();
 }
 
 function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
-        caixaAlternativas.appendChild(botaoAlternativas);
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = alternativa.texto;
+        botaoAlternativa.addEventListener("click", () => respostaSelecionada(alternativa));
+        caixaAlternativas.appendChild(botaoAlternativa);
     }
-function mostraAfirmacoes (){
-    for(const afirmacoes of perguntaAtual.afirmacoes){
-        
-    }
-}
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);  // Aleatório das afirmações
     historiaFinal += afirmacoes + " ";
     if (opcaoSelecionada.proxima !== undefined) {
         atual = opcaoSelecionada.proxima;
@@ -65,7 +60,7 @@ function respostaSelecionada(opcaoSelecionada) {
 function mostraResultado() {
     caixaPerguntas.textContent = `Em 2049, ${nome}`;
     textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.innerHTML = "";  // Limpar alternativas após o resultado
     caixaResultados.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
