@@ -1,5 +1,5 @@
 import {aleatorio,nome} from'./aleatorio.js';
-import{perguntas} from './aleatorio.js;';
+import{perguntas} from './perguntas.js';
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
@@ -14,8 +14,8 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-botaoIniciar.addEventListener('click,iniciaJogo');
-function iniciaJogo (){
+botaoIniciar.addEventListener('click',iniciaJogo);
+function iniciaJogo () {
     atual = 0;
     historiaFinal = "";
     telaInicial.style.display = 'none';
