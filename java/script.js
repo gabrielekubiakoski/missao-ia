@@ -51,7 +51,7 @@ function mostraAfirmacoes (){
 }
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacoes);
     historiaFinal += afirmacoes + " ";
     if (opcaoSelecionada.proxima !== undefined) {
         atual = opcaoSelecionada.proxima;

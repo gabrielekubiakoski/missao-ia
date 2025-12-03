@@ -5,7 +5,7 @@ export const perguntas = [
         {
             texto:"Utilizar as redes sociais de forma consciente, estabelecendo limites de tempo, evitando comparações e priorizando conteúdos que transmitam mensagens positivas e construtivas.",
             afirmacao:[
-                "Essa atitude é favorável porque promove o uso equilibrado das redes, ajudando a preservar a saúde mental. Ao limitar o tempo online e consumir conteúdos inspiradores, o indivíduo reduz a exposição a comparações negativas e diminui o risco de desenvolver ansiedade e insatisfação pessoal.",
+                "Essa atitude é favorável porque promove o uso equilibrado das redes, ajudando a preservar a saúde mental. Ao limitar o tempo online e consumir conteúdos inspiradores, o indivíduo reduz a exposição a comparações negativas e diminui o risco de desenvolver ansiedade e insatisfação pessoal."
             ],
             proxima: 1,
         },
@@ -43,14 +43,14 @@ export const perguntas = [
         {
             texto:"A exposição constante a vidas editadas e irreais faz com que muitos usuários desenvolvam comparações prejudiciais e sintam que nunca estão à altura do que veem online.",
             afirmacao: [
-          "Esse tipo de comparação afeta diretamente a autoestima e pode provocar frustrações contínuas.",
+          "Esse tipo de comparação afeta diretamente a autoestima e pode provocar frustrações contínuas."
             ],
             proxima:5,
         },
         {
             texto:"Usuários com senso crítico conseguem diferenciar conteúdos exagerados da realidade, evitando que esse tipo de exposição prejudique sua saúde mental.",
             afirmacao: [
-            "A maturidade emocional permite compreender que influenciadores mostram apenas recortes positivos da vida.",
+            "A maturidade emocional permite compreender que influenciadores mostram apenas recortes positivos da vida."
             ],
             proxima: 6,
         }
@@ -69,7 +69,7 @@ export const perguntas = [
         {
             texto:"Apesar das iniciativas positivas, ainda há grande disseminação de informações incorretas, o que pode confundir e até prejudicar quem busca ajuda.",
             afirmacao: [
-             "Sem filtros de qualidade, o ambiente virtual pode gerar interpretações equivocadas.",
+             "Sem filtros de qualidade, o ambiente virtual pode gerar interpretações equivocadas."
             ],
             proxima: 8,
         }
